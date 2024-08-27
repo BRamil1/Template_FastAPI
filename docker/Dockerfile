@@ -4,7 +4,7 @@ WORKDIR /usr/app
 
 
 COPY requirements.txt ./
-COPY src ./
+COPY src ./src
 COPY main.py ./
 COPY LICENSE ./
 
